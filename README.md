@@ -46,3 +46,26 @@ async function updateDeviceSettings(deviceId, settings) {
     // Handle errors that might occur during the settings update request
   }
 }
+
+async function getDeviceStatus(deviceId, authToken) {
+  try {
+    const response = await fetch(`https://api.iotservicepro.com/devices/${deviceId}/status`, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${authToken}`
+      }
+    });
+
+    if (!response.ok) {
+      throw new Error('Unable to retrieve device status.');
+    }
+
+    const status = await response.json();
+
+    return status;
+  } catch (error) {
+    throw error;
+  }
+}
+
