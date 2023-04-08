@@ -69,3 +69,169 @@ async function getDeviceStatus(deviceId, authToken) {
   }
 }
 
+network architecture:
+
+class IoTDevice {
+    // properties and methods of IoT devices
+}
+
+class Router {
+    // properties and methods of router
+}
+
+class Firewall {
+    // properties and methods of firewall
+}
+
+class IoTGateway {
+    // properties and methods of IoT gateway
+}
+
+class IoTServicePro {
+    WebPlatform webPlatform;
+    Database database;
+    IoTGateway iotGateway;
+    
+    // methods for IoT ServicePro
+}
+
+class WebPlatform {
+    // properties and methods of web platform
+}
+
+class Database {
+    // properties and methods of database
+}
+
+class MobileApp {
+    // properties and methods of mobile app
+}
+
+Database schema:
+
+class IoTData {
+    // properties and methods of IoT data
+}
+
+class Database {
+    List<IoTData> iotDataList;
+    
+    // methods for adding, updating, and deleting IoT data
+}
+
+class DataModel {
+    // properties and methods of data model
+}
+
+class Table {
+    // properties and methods of database table
+}
+
+class Index {
+    // properties and methods of database index
+}
+
+Scheme of interaction with users:
+
+class WebPlatform {
+    List<WebPage> webPageList;
+    List<Button> buttonList;
+    List<InputForm> inputFormList;
+    List<DataControl> dataControlList;
+    
+    // methods for web platform
+}
+
+class MobileApp {
+    List<Screen> screenList;
+    List<Button> buttonList;
+    List<InputForm> inputFormList;
+    List<DataControl> dataControlList;
+    
+    // methods for mobile app
+}
+
+class WebPage {
+    // properties and methods of web page
+}
+
+class Screen {
+    // properties and methods of mobile app screen
+}
+
+class Button {
+    // properties and methods of button
+}
+
+class InputForm {
+    // properties and methods of input form
+}
+
+class DataControl {
+    // properties and methods of data control
+}
+
+Monetization scheme:
+
+class SubscriptionPlan {
+    // properties and methods of subscription plan
+}
+
+class AdditionalFeature {
+    // properties and methods of additional feature
+}
+
+class Advertisement {
+    // properties and methods of advertisement
+}
+
+class Partnership {
+    // properties and methods of partnership
+}
+
+class IoTServicePro {
+    List<SubscriptionPlan> subscriptionPlanList;
+    List<AdditionalFeature> additionalFeatureList;
+    List<Advertisement> advertisementList;
+    List<Partnership> partnershipList;
+    
+    // methods for monetization
+}
+
+Security scheme:
+
+class DataSecurity {
+    // properties and methods of data security
+}
+
+class DeviceSecurity {
+    // properties and methods of device security
+}
+
+class UserAuthentication {
+    // properties and methods of user authentication
+}
+
+class IoTServicePro {
+    DataSecurity dataSecurity;
+    DeviceSecurity deviceSecurity;
+    UserAuthentication userAuthentication;
+    
+    // methods for security
+}
+
+Scheme of integration with third-party applications:
+
+class API {
+    // properties and methods of API
+}
+
+class Integration {
+    // properties and methods of integration
+}
+
+class IoTServicePro {
+    List<API> apiList;
+    List<Integration> integrationList;
+    
+    // methods
